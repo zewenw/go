@@ -6,9 +6,14 @@ import "fmt"
 const a int16 = 27
 
 const (
-	// iota is a counter
+	// iota is a counter which its value is scope to a constant block
 	j = iota
 	k = iota
+)
+
+const (
+	j1 = iota
+	k1 = iota
 )
 
 func main(){
@@ -40,4 +45,7 @@ func main(){
 	fmt.Printf("=============================\n")
 	fmt.Printf("%v\n", j)
 	fmt.Printf("%v\n", k)
+
+	fmt.Printf("%v\n", j1)
+	fmt.Printf("%v\n", k1)
 }
