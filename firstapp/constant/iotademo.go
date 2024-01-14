@@ -19,5 +19,6 @@ const (
 
 func main(){
 	fileSize := 4000000000.
+	//.3f means contains 3 decimal float
 	fmt.Printf("%.3f GB", fileSize / GB)
 }
