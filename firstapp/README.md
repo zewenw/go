@@ -1,1 +1,0 @@
-basic knowledge about golang and its related code samples
